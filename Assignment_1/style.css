@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  width: 1000px;
+  height: 650px;
+  background: linear-gradient(to right, #fdc51d 60%, #ffeba9 50%);
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.pokemon-logo {
+  position: absolute;
+  top: 18px;
+  left: 40px;
+  font-family: "Pokemon Solid", "Arial Black", sans-serif;
+  font-size: 35px;
+  color: #3b4cca;
+  letter-spacing: 1px;
+}
+
+.gen-text {
+  position: absolute;
+  top: 160px;
+  left: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.hamburger {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 50px;
+  top: 25px;
+  cursor: pointer;
+}
+
+.title {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.description {
+  position: absolute;
+  width: 400px;
+  top: 280px;
+  left: 40px;
+  word-spacing: 3px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  line-height: 1.5;
+}
+
+.counter {
+  position: absolute;
+  top: 460px;
+  left: 40px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.dots {
+  position: absolute;
+  top: 280px;
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#dott {
+  background-color: black;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(255, 199, 31);
+  border-radius: 50px;
+}
+
+.pikachu-img {
+  position: absolute;
+  left: 430px;
+  top: 80px;
+  width: 500px;
+  height: auto;
+}
+
+.pokeball {
+  position: absolute;
+  bottom: -80px;
+  left: 20px;
+  width: 230px;
+  opacity: 0.1;
+}
