@@ -28,7 +28,7 @@ main {
   width: 100%;
 }
 
-nav{
+nav {
   padding: 0 100px 0 100px;
   display: flex;
   align-items: center;
@@ -37,19 +37,19 @@ nav{
   height: 12%;
 }
 
-nav .center{
+nav .center {
   display: flex;
   gap: 30px;
   color: white;
 }
 
-nav .center p{
+nav .center p {
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
 }
 
-nav .left img{
+nav .left img {
   cursor: pointer;
 }
 
@@ -64,34 +64,34 @@ nav .left img{
   background-color: rgb(38, 38, 38);
 }
 
-#getStarted:hover{
+#getStarted:hover {
   background-color: black;
   border: 1px solid rgb(85, 82, 82);
 }
 
-section{
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 60px;
   padding-top: 20px;
   /* background-color: red; */
-  height: 50%;
+  height: 40%;
 }
 
-section h1{
+section h1 {
   color: white;
   font-size: 65px;
   text-align: center;
   margin-top: 40px;
 }
 
-section .switch{
+section .switch {
   display: flex;
   gap: 16px;
 }
 
-section .switch .box{
+section .switch .box {
   font-size: 18px;
   font-weight: 300;
   padding: 18px 25px;
@@ -100,10 +100,65 @@ section .switch .box{
   border-radius: 30px;
   cursor: pointer;
   background-color: rgb(38, 38, 38);
-
 }
 
-section .switch #orange{
+section .switch #orange {
   background-color: #ff4400;
 }
 
+.section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 90%;
+  padding: 30px 80px 0px 80px;
+  /* background-color: yellow; */
+}
+
+.section .container {
+  height: 80%;
+  width: 30%;
+  background-color: rgba(255, 85, 23, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.section .container img {
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.section .data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0px 0px 15px;
+}
+
+.section .data h2 {
+  color: white;
+}
+
+.section .data p {
+  color: #ffffff99;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ff5618;
+  background-color: #ff50104d;
+  border: none;
+  border-radius: 30px;
+  padding: 12px;
+  cursor: pointer;
+}
