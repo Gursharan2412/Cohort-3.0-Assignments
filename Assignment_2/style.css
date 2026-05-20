@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: black;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  padding: 0 100px 0 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  height: 12%;
+}
+
+nav .center{
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+
+nav .center p{
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav .left img{
+  cursor: pointer;
+}
+
+#getStarted {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 18px 24px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(38, 38, 38);
+}
+
+#getStarted:hover{
+  background-color: black;
+  border: 1px solid rgb(85, 82, 82);
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding-top: 20px;
+  /* background-color: red; */
+  height: 50%;
+}
+
+section h1{
+  color: white;
+  font-size: 65px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+section .switch{
+  display: flex;
+  gap: 16px;
+}
+
+section .switch .box{
+  font-size: 18px;
+  font-weight: 300;
+  padding: 18px 25px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgb(38, 38, 38);
+
+}
+
+section .switch #orange{
+  background-color: #ff4400;
+}
+
