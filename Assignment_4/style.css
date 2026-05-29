@@ -73,10 +73,11 @@ main {
   flex-direction: column;
   gap: 10px;
   padding: 20px 0px 0px 25px ;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .content1 h5{
+  color: grey;
   font-size: 14px;
   font-weight: 400;
 }
@@ -89,16 +90,80 @@ main {
 .box{
   height: 58%;
   width: 100%;
-  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 10px;
+  /* background-color: yellow; */
 }
 
 .icon-top{
-  background-color: green;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* background-color: green; */
 }
 
 .icon-top .icons{
-  border-radius: 50px;
-  /* background-color: crimson; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(56, 50, 50);
+}
+
+.ri-figma-line{
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.ri-drag-move-fill{
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.ri-tailwind-css-fill{
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.ri-reactjs-line{
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.ri-remix-fill{
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.ri-discord-line{
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.icon-bottom{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* background-color: purple; */
+}
+
+.icon-bottom .icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(56, 50, 50);
 }
 
 .bottom-left {
@@ -126,6 +191,7 @@ main {
 }
 
 .content p{
+  color: grey;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -191,9 +257,67 @@ main {
 
 .top-right {
   grid-area: top-right;
-  background-color: black;
-  border: 2px solid white;
-  border-radius: 10px;
+  /* background-color: black; */
+  /* border: 2px solid white; */
+  /* border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.top-items{
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 10px; */
+  /* background-color: red; */
+}
+
+.boxx{
+  height: 85%;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid grey;
+  border-radius: 20px;
+  background-color: rgb(24, 21, 21);
+  overflow: hidden;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.boxx:hover{
+  transform: translateY(-2px);
+
+}
+
+.ri-facebook-circle-fill{
+  font-size: 24px;
+}
+.ri-twitter-x-line{
+  font-size: 24px;
+}
+.ri-instagram-line{
+  font-size: 24px;
+}
+.ri-linkedin-box-fill{
+  font-size: 24px;
+}
+.ri-dribbble-line{
+  font-size: 24px;
+}
+.ri-behance-line{
+  font-size: 24px;
+}
+
+.bottom-items{
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 10px; */
+  /* background-color: green; */
 }
 
 .center {
@@ -219,6 +343,54 @@ main {
   background-color: black;
   border: 2px solid white;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0px 0px 25px ;
+  /* background-color: red; */
+}
+
+.content2 h5{
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.content2 h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.arrow{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 2px solid rgba(86, 79, 79, 0.671);
+  border-radius: 30px;
+  margin: 0px 0px 20px 200px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(173, 108, 108, 0.682);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  /* background-color: green; */
+}
+
+.arrow:hover{
+  transform: translateY(-4px);
+
+}
+
+.ri-arrow-right-up-line{
+  font-size: 24px;
 }
 
 .right-center2 {
@@ -233,4 +405,52 @@ main {
   background-color: black;
   border: 2px solid white;
   border-radius: 10px;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content3{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px 0px 0px 25px ;
+  /* background-color: red; */
+}
+
+.content3 p{
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.content3 h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.arroww{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 2px solid rgba(86, 79, 79, 0.671);
+  border-radius: 30px;
+  margin: 0px 0px 20px 500px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(173, 108, 108, 0.682);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  /* background-color: green; */
+}
+
+.arroww:hover{
+  transform: translateY(-4px);
+
+}
+
+.ri-arrow-right-up-line{
+  font-size: 24px;
 }
