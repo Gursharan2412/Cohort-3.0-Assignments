@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    height: 95%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(https://www.twoleavestea.com/cdn/shop/files/cere-memorial_matcha_wide.png?v=1779304660&width=2700.0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+header .line{
+    height: 30px;
+    width: 100%;
+    background-color: #2a2857;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line h4{
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+header nav{
+    height: 70px;
+    width: 98vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+section{
+    height: 500px;
+    width: 100%;
+    background-color: yellow;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .left{
+    height: 50px;
+    width: 350px;
+    /* padding-left: 25px; */
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 30px;
+}
+nav .left p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    background-color: #c0dbff;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: rgb(255, 230, 0);
+}
+nav .right{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-right: 20px;
+    /* background-color: blue; */
+}
+.right a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    word-spacing: 5px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.right a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 1px;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .3s ease;
+}
+.right a:hover::after{
+    transform: scaleX(1);
+}
+.ri-shopping-bag-line{
+    font-size: 25px;
+}
+.left .shop{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.left .learn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.left .review{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.ri-star-smile-fill{
+    font-size: 24px;
+} 
